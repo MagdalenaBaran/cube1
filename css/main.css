@@ -45,4 +45,12 @@ div.navbar-fluid div.navbar a img {
 div.navbar-fluid .hidden {
   display: none;
 }
+
+header.header-top-fluid {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding-top: 6rem;
+  height: calc(100vh - 6rem);
+  background-color: grey;
+}
 /*# sourceMappingURL=main.css.map */
