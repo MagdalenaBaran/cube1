@@ -87,4 +87,56 @@ header.header-top-fluid .container div:nth-child(2) p {
   font-size: 2.0rem;
   font-weight: 400;
 }
+
+div.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.info > article {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
+  background-color: #ece9e9;
+  -webkit-box-shadow: 0px 30px 93px 38px #c7c7c7;
+          box-shadow: 0px 30px 93px 38px #c7c7c7;
+  padding: 2rem;
+}
+
+div.button > a {
+  width: 36rem;
+  height: 10rem;
+  background-color: aliceblue;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  overflow: hidden;
+}
+
+div.button > a > span {
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  line-height: 10rem;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+div.button > a:hover span {
+  -webkit-transform: translateY(-10rem);
+          transform: translateY(-10rem);
+}
+
+div.notes {
+  display: inline-block;
+  background-color: #d8d8d8;
+  width: 100%;
+  height: 50rem;
+}
+
+div.notes > div {
+  font-size: 4rem;
+  color: black;
+}
 /*# sourceMappingURL=main.css.map */
