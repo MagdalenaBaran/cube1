@@ -23,8 +23,9 @@ section.navbar-fluid {
   top: 0;
   background-color: #fff;
   position: fixed;
-  -webkit-box-shadow: 0px 3px 7px 0px rgba(50, 50, 50, 0.35);
-          box-shadow: 0px 3px 7px 0px rgba(50, 50, 50, 0.35);
+  -webkit-box-shadow: 0px 34px 69px -22px black;
+          box-shadow: 0px 34px 69px -22px black;
+  margin: 0;
 }
 
 section.navbar-fluid div.navbar {
@@ -42,6 +43,13 @@ section.navbar-fluid div.navbar {
 
 section.navbar-fluid div.navbar a img {
   height: 4rem;
+}
+
+section.navbar-fluid div.navbar nav {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 section.navbar-fluid .hidden {
@@ -70,22 +78,46 @@ header.header-top-fluid .container {
   display: flex;
 }
 
-header.header-top-fluid .container div:nth-child(2) {
+header.header-top-fluid div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: white;
   font-family: 'raleway', sans-serif;
-  padding: 6rem;
+  padding-left: 4rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-header.header-top-fluid .container div:nth-child(2) h2 {
+header.header-top-fluid h2 {
   margin: 0;
   font-size: 5.5rem;
   font-weight: 300;
 }
 
-header.header-top-fluid .container div:nth-child(2) p {
+header.header-top-fluid p {
   margin: 0;
-  font-size: 2.0rem;
+  font-size: 2.8rem;
   font-weight: 400;
+}
+
+header.header-top-fluid a {
+  -webkit-box-shadow: 0px 0px 300px -5px black;
+          box-shadow: 0px 0px 300px -5px black;
+  width: 28rem;
+  height: 5rem;
+  background-color: aliceblue;
+  display: inline-block;
+  text-decoration: none;
+  color: #51a6b3;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 4.5rem;
 }
 
 div.info {
@@ -138,5 +170,17 @@ div.notes {
 div.notes > div {
   font-size: 4rem;
   color: black;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
